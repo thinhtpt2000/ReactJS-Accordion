@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import Accordion from './components/Accordion';
+import React from "react";
+import "./App.css";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
     <div className="App">
-         <Accordion heading="Heading" content="lsjglksslkgjslkgjslksjlsjfalfjaljalfjafl" />
+      <Accordion heading="Heading">Demo children content...</Accordion>
     </div>
   );
 }

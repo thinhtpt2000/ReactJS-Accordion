@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 const Accordion = (props) => {
   const [isCollapsed, setCollapsed] = useState(true);
-  const { heading, content } = props;
+  const { heading } = props;
+  const content = props.children;
 
   const handleHeadingClick = () => {
     setCollapsed(!isCollapsed);
